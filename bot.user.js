@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        AposBot
-// @namespace   AposBot
+// @name        CIA
+// @namespace   CIA
 // @include     http://agar.io/
 // @version     3.3
 // @grant       none
@@ -44,10 +44,10 @@ console.log("Running Apos Bot!");
         g('#locationUnknown').addClass('form-group');
     }
 
-    f.botList.push(["AposBot", findDestination]);
+    f.botList.push(["CIA", findDestination]);
 
     var bList = g('#bList');
-    g('<option />', {value: (f.botList.length - 1), text: "AposBot"}).appendTo(bList);
+    g('<option />', {value: (f.botList.length - 1), text: "CIA"}).appendTo(bList);
 
     //Given an angle value that was gotten from valueAndleBased(),
     //returns a new value that scales it appropriately.
